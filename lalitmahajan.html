@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Lalit Mahajan – Official Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Poppins", sans-serif;
+      background-color: #f5f6fa;
+      color: #222;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(90deg, #002366, #0073e6);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      object-fit: cover;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-top: 20px;
+      font-weight: 700;
+    }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      background: #001a4d;
+      padding: 15px 0;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 50px auto;
+      background: #fff;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+    }
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #004aad;
+      border-left: 5px solid #004aad;
+      padding-left: 10px;
+    }
+    ul.roles {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul.roles li {
+      margin: 10px 0;
+      padding-left: 25px;
+      position: relative;
+    }
+    ul.roles li::before {
+      content: "✔";
+      position: absolute;
+      left: 0;
+      color: #0073e6;
+      font-weight: bold;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .contact {
+      text-align: center;
+    }
+    .contact a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      border-radius: 8px;
+      background: #004aad;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+      font-weight: 500;
+    }
+    .contact a:hover {
+      background: #003380;
+    }
+
+    footer {
+      background: #001a4d;
+      color: #ccc;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://scontent.fixc5-1.fna.fbcdn.net/v/t39.30808-6/370593746_640261768247679_213064084612638134_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=-pJm_MzGOFcQ7kNvwGu_76j&_nc_oc=AdkwDqsJmlomBebMabO6FWM7XhflF-5-q9kmzVn8P-OAKxAneLcNr-4wQZcFUk0IVoD7-KtdjMyMt42QbHh5V6TV&_nc_zt=23&_nc_ht=scontent.fixc5-1.fna&_nc_gid=g8ZnoGG8YWESvVG5jpHk9g&oh=00_Afh1_faIpE7SEpAz_p_ZrTwQUnTcUWrG4FI6C6kwJahoYg&oe=691262CF" alt="Dr. Lalit Mahajan">
+    <h1>Dr. Lalit Mahajan</h1>
+    <p>Social Leader • Community Representative • Dedicated Public Servant</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#roles">Positions</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Dr. Lalit Mahajan</h2>
+    <p>Dr. Lalit Mahajan is a respected social leader and community representative from Charkhi Dadri, Haryana. 
+      Through his active engagement in education, youth development, and social welfare, 
+      he has been a guiding force in empowering the Vaish community and fostering unity among diverse groups.</p>
+    <p>He works tirelessly to promote educational excellence through the Vaish Education Society and continues to inspire
+      youth towards community service and leadership with compassion, integrity, and purpose.</p>
+  </section>
+
+  <section id="roles">
+    <h2>Positions & Leadership Roles</h2>
+    <ul class="roles">
+      <li>General Secretary, Vaish Education Society, Charkhi Dadri</li>
+      <li>Former General Secretary, Agrawal Sabha (Regd.), Charkhi Dadri</li>
+      <li>State Secretary & General Secretary (Youth), Haryana Pradesh Vaish Mahasammelan</li>
+      <li>National Executive Member, Bharatiya Udyog Vyapar Mandal</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://scontent.fixc5-1.fna.fbcdn.net/v/t39.30808-6/370593746_640261768247679_213064084612638134_n.jpg" alt="Dr. Lalit Mahajan">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Charkhi_Dadri_bus_stand.jpg/640px-Charkhi_Dadri_bus_stand.jpg" alt="Charkhi Dadri">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Agrawal_Samaj_Community_Event.jpg/640px-Agrawal_Samaj_Community_Event.jpg" alt="Community Event">
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <a href="mailto:mahajandrlalit@gmail.com">✉️ Email Dr. Lalit Mahajan</a>
+    <a href="https://www.facebook.com/mahajanindian" target="_blank">🌐 Facebook Profile</a>
+  </section>
+
+  <footer>
+    For Dr. Lalit Mahajan | Made by Monk
+  </footer>
+
+</body>
+</html>
